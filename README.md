@@ -40,15 +40,15 @@ Usage Examples:
 
 Log last at maximum ten transactions sent to account `S-9K9L-4CB5-88Y5-F5G4Z` that contains the string "NDS" in their message 
 
-`pir8grabber -a S-9K9L-4CB5-88Y5-F5G4Z -m "NDS"`
+`signum-grabber -a S-9K9L-4CB5-88Y5-F5G4Z -m "NDS"`
 
 ----
 Log last at maximum twenty transactions sent to account `S-9K9L-4CB5-88Y5-F5G4Z` that has more than 50 SIGNA into `./acme.json` 
 
-`pir8grabber -a S-9K9L-4CB5-88Y5-F5G4Z -s 50 -l 20 -f ./acme.json`
+`signum-grabber -a S-9K9L-4CB5-88Y5-F5G4Z -s 50 -l 20 -f ./acme.json`
 
 ----
 Log last at maximum ten transactions sent to account `S-9K9L-4CB5-88Y5-F5G4Z` that has messages starting with "foo"  and considering also encrypted messages`
 
-`pir8grabber -a S-9K9L-4CB5-88Y5-F5G4Z -m "^foo" -p "my super secret passphrase"`
+`signum-grabber -a S-9K9L-4CB5-88Y5-F5G4Z -m "^foo" -p "my super secret passphrase"`
 

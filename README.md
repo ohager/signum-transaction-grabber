@@ -20,7 +20,7 @@ signum-grabber -h
 ```
 
 ```
-Usage: pir8grabber [options]
+Usage: signum-grabber [options]
 
 Options:
   -V, --version              output the version number

@@ -1,4 +1,4 @@
-# signum-pir8-grabber
+# signum-transaction-grabber
 
 [![JavaScript Style Guide](https://img.shields.io/badge/code_style-standard-brightgreen.svg)](https://standardjs.com)
 ![node-current](https://img.shields.io/node/v/signum-pir8-grabber)
@@ -15,8 +15,8 @@ A small tool that grabs Signum transactions from a specific account by certain c
 Install using 
 
 ```bash 
-npm i signum-pir8-grabber -g
-pir8grabber -h
+npm i signum-transaction-grabber -g
+signum-grabber -h
 ```
 
 ```
@@ -45,7 +45,7 @@ Log last at maximum ten transactions sent to account `S-9K9L-4CB5-88Y5-F5G4Z` th
 ----
 Log last at maximum twenty transactions sent to account `S-9K9L-4CB5-88Y5-F5G4Z` that has more than 50 SIGNA into `./acme.json` 
 
-`pir8grabber -a S-9K9L-4CB5-88Y5-F5G4Z -a 50 -l 20 -f ./acme.json`
+`pir8grabber -a S-9K9L-4CB5-88Y5-F5G4Z -s 50 -l 20 -f ./acme.json`
 
 ----
 Log last at maximum ten transactions sent to account `S-9K9L-4CB5-88Y5-F5G4Z` that has messages starting with "foo"  and considering also encrypted messages`
